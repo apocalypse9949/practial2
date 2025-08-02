@@ -47,13 +47,13 @@ const BASE_URL = 'http://localhost:8081';
   };
 
   
-  const deleteProduct = async (id) => {
-    if (window.confirm('Are you sure you want to delete this product?')) {
-      await axios.delete(`${BASE_URL}/delete/${id}`);
-      alert('Delete successful');
-      fetchProducts();
-    }
-  };
+  // const deleteProduct = async (id) => {
+  //   if (window.confirm('Are you sure you want to delete this product?')) {
+  //     await axios.delete(`${BASE_URL}/delete/${id}`);
+  //     alert('Delete successful');
+  //     fetchProducts();
+  //   }
+  // };
   
 
   useEffect(() => {
